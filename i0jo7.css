@@ -1,0 +1,11 @@
+/* Code tidied up by ScrapBook */
+.cff-wrapper::after { content: ""; display: table; clear: both; }
+#cff { float: left; width: 100%; margin: 0px auto; padding: 0px; box-sizing: border-box; }
+#cff.cff-default-styles a { text-decoration: none; }
+#cff.cff-default-styles a:hover, #cff.cff-default-styles a:focus { text-decoration: underline; }
+#cff h3, #cff h4, #cff h5, #cff h6, #cff p, #cff .cff-post-desc { float: left; width: 100%; clear: both; padding: 0px; margin: 5px 0px; white-space: pre-line; overflow-wrap: break-word; }
+#cff.cff-default-styles h3, #cff.cff-default-styles h4, #cff.cff-default-styles h5, #cff.cff-default-styles h6, #cff.cff-default-styles p, #cff.cff-default-styles .cff-post-desc { line-height: 1.4; }
+#cff .cff-error-msg { display: none; font-size: 12px; font-family: sans-serif; }
+#cff #cff-error-reason { display: none; padding: 5px 0px 0px; clear: both; }
+@media all and (max-width: 640px) {
+}
